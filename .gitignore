@@ -1,0 +1,13 @@
+node_modules
+dist
+.expo
+.expo-shared
+*.orig.*
+.env.local
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.tsbuildinfo
+web-build

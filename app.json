@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Rakomi Expo quickstart",
+    "slug": "rakomi-expo-quickstart",
+    "scheme": "rakomi-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rakomi.examples.expoquickstart"
+    },
+    "android": {
+      "package": "com.rakomi.examples.expoquickstart"
+    }
+  }
+}

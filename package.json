@@ -1,0 +1,38 @@
+{
+  "name": "@rakomi-examples/quickstart-expo",
+  "version": "1.0.0",
+  "description": "Ship Expo (React Native) auth in minutes: a managed app with RFC 8252 system-browser PKCE sign-in, a rakomi-expo:// deep-link callback, a protected screen and an optional biometric-unlock path, built entirely on @rakomi/react-native.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "expo start",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@rakomi/react-native": "^0.2.0",
+    "expo": "^54.0.0",
+    "expo-crypto": "^15.0.7",
+    "expo-linking": "^8.0.8",
+    "expo-local-authentication": "^17.0.7",
+    "expo-secure-store": "^15.0.7",
+    "expo-web-browser": "^15.0.8",
+    "react": "^19.1.0",
+    "react-native": "^0.81.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.13",
+    "@types/react": "^19.1.8",
+    "typescript": "^5.9.3",
+    "vite": "7.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakomidev/rakomi-expo-quickstart.git"
+  },
+  "homepage": "https://github.com/rakomidev/rakomi-expo-quickstart#readme",
+  "bugs": {
+    "url": "https://github.com/rakomidev/rakomi-expo-quickstart/issues"
+  }
+}
